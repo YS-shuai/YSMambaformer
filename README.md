@@ -11,7 +11,7 @@ Integrating Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (
 - `arg_setting/` used to parse configuration files for spatio-temporal sequence-related tasks and generate a unified setting dictionary for the model training, validation, and testing processes.
 - `configs/` YAML configuration file providing data.
 - `datasets/` PyTorch Lightning data module for building datasets.
-- `model/` an Mambaformer model that integrates Multi-Head Attention with the Selective State Space (SSD) mechanism.
+- `models/` an Mambaformer model that integrates Multi-Head Attention with the Selective State Space (SSD) mechanism.
 - `task/` predict and evaluate the prediction performance of different types of spatiotemporal data.
 - `utils/` spati-temporal data processing and visualization.
 - `test.py` testing models trained based on the PyTorch Lightning framework.
